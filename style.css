@@ -53,10 +53,89 @@ header .nav ul li a{
     text-decoration: none;
     color: rgb(41, 41, 41);
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: bold;
 }
 
 header .nav ul li a:hover{
     color: #7f97ff;
+}
+
+
+/* Home Section */
+section{
+    width: 100%;
+    height: 750px;
+    background-color: #f1f2f5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details, .photo{
+    width: 50%;
+}
+
+.details{
+    margin-left: 230px;
+    margin-bottom: 120px;
+}
+
+.photo{
+    padding-left: 400px;
+}
+
+.photo img{
+    max-width:60%;
+    height: auto;
+}
+
+.details h3{
+   font-weight: normal; 
+}
+
+.details h1{
+    font-size: 50px;
+}
+
+.details p{
+    font-size: 20px;
+}
+
+.iconArea{
+	position:fixed;
+	left: 30px;
+	top: 50%;
+	transform: translateY(-50%);
+	border-radius: 20px;
+	background-color: #FFFFFF;
+	box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+	padding: 5px 0px;
+	z-index: 1;
+}
+
+.iconArea a{
+    text-decoration: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 15px;
+}
+
+.iconArea a i{
+	color:rgba(39,39,39,0.80);
+}
+ 
+.iconArea a:hover .fa-facebook-f{
+	color: #1f59d7;
+}
+.iconArea a:hover .fa-twitter{
+	color: #00acee ;
+}
+.iconArea a:hover .fa-instagram{
+	color:  #f5ab3d ;
+}
+.iconArea a:hover .fa-youtube{
+	color: 	#FF0000;
 }
